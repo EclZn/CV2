@@ -1,240 +1,96 @@
 <!DOCTYPE html>
-<html>
-<html lang="en">
+<html lang="en" class="theme--dark">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="cv2.css">
-    <title>Welcome to my Page!</title>
+  <meta charset="UTF-8">
+  <title>Greetings!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-<div class="wrapper">
-  <div class="intro">
-    <div class="profile">
-      <div class="photo">
-        <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg">
-      </div>
-      <div class="bio">
-        <h1 class="name">Burak Karabacak</h1>
-        <p class="profession">Computer Engineering Student</p>
-      </div>
-    </div>
-    <div class="intro-section about">
-      <h1 class="title">about me</h1>
-      <p class="paragraph">
-       Collaborative and easy learner Computer Engineering Student. Eager to improvise in new skills and master applications. Passionate with team work and adaptable with team members. Has the fundemantal knowledge about electronics, data structure and object oriented programming . </p>
-    </div>
-    <div class="intro-section contact">
-      <h1 class="title">Contact</h1>
-      <div class="info-section">
-        <i class="fas fa-phone"></i>
-        <span>+90 533 440 08 78 </span>
-      </div>
-      <div class="info-section">
-        <i class="fas fa-map-marker-alt"></i>
-        <span>Istanbul, Turkey</span>
-      </div>
-      <div class="info-section">
-        <i class="fas fa-paper-plane"></i>
-        <span>burakkarabacak2002@gmail.com</span>
-      </div>
-     
-    </div>
-    <div class="intro-section follow">
-      <h1 class="title"></h1>
-      <div class="info-section link">
-        <i class="fab fa-github"></i>
-        <a target="_blank" rel="author" href="https://github.com/Gospik">
-          <span>Github</span>
-        </a>
-      </div>
-     
-      
-    </div>
+<header class="l-header">
+  <div class="c-theme">
   </div>
-  <div class="detail">
-    
-    <div class="detail-section edu">
-      <div class="detail-title">
-        <div class="title-icon">
-          
-          <i class="fas fa-user-graduate"></i>
-        </div>
-        <span>Education</span>
+  <div class="l-header__content l-wrapper">
+    <div class="grid__col grid__col--3-of-3">
+      <div class="c-toggle">
+        <button class="c-toggle__item " data-theme="light"><i class="c-toggle__icon" data-feather="sun"></i>Light</button>
+        <button class="c-toggle__item c-toggle__item--active" data-theme="dark"><i class="c-toggle__icon" data-feather="moon"></i>Dark</button>
       </div>
-      <div class="detail-content">
-        <div class="timeline-block">
-          <h1>Cagribey High School</h1>
-          <p></p>
-          <time>2016-2020</time>
-        </div>
-        <div class="timeline-block">
-          <h1>Uskudar University</h1>
-          <p>Department of Engineering </p>
-          <time>2021-2026</time>
-        </div>
-      </div>
-    </div>
-    <div class="detail-section pg-skill">
-      <div class="detail-title">
-        <div class="title-icon">
-          <i class="fas fa-laptop-code"></i>
-          
-        </div>
-        <span>Programming skills</span>
-      </div>
-      <div class="detail-content">
-        <ul class="pg-list">
-          <li>
-            <span>HTML</span>
-            <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 80%"></div>
-            </div>
-          </li>
-          <li>
-            <span>CSS</span>
-            <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 30%"></div>
-            </div>
-          </li>
-          <li>
-            <span>Java</span>
-            <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 20%"></div>
-            </div>
-          </li>
-          <li>
-            <span>C++</span>
-            <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 32%"></div>
-            </div>
-          </li>
-         <li>
-            <span>C#</span>
-            <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 25%"></div>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-    </div>
-    <div class="detail-section pg-skill">
-        <div class="detail-title">
-          <div class="title-icon">
-            <i class="fas fa-languages"></i>
-            
-          </div>
-          <span>Languages</span>
-        </div>
-        <div class="detail-content">
-          <ul class="pg-list">
-            <li>
-              <span>Russian</span>
-              <div class="sb-skeleton">
-                <div class="skillbar" style="--pgbar-length: 30%"></div>
-              </div>
-            </li>
-            <li>
-              <span>Turkish</span>
-              <div class="sb-skeleton">
-                <div class="skillbar" style="--pgbar-length: 95%"></div>
-              </div>
-            </li>
-            <li>
-              <span>English</span>
-              <div class="sb-skeleton">
-                <div class="skillbar" style="--pgbar-length: 75%"></div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    <div class="detail-section tool-skill">
-      <div class="detail-title">
-        <div class="title-icon">
-          <i class="fas fa-tools"></i>
-        </div>
-        
-        <span>Development Tools</span>
-      </div>
-      <div class="detail-content">
-        <ul class="tool-list">
-          <li>
-            <svg viewbox="0 0 100 100">
-              <circle cx="50" cy="50" r="45"></circle>
-              <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.4"></circle>
-            </svg>
-            <span class="tl-name">Blender</span>
-            <span class="tl-exp">40%</span>
-          </li>
-          <li>
-            <svg viewbox="0 0 100 100">
-              <circle cx="50" cy="50" r="45"></circle>
-              <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.4"></circle>
-            </svg>
-            <span class="tl-name">Visual Studio</span>
-            <span class="tl-exp">40%</span>
-          </li>
-          <li>
-            <svg viewbox="0 0 100 100">
-              <circle cx="50" cy="50" r="45"></circle>
-              <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.6"></circle>
-            </svg>
-            <span class="tl-name">Arduino IDE</span>
-            <span class="tl-exp">60%</span>
-          </li>
-          <li>
-            <svg viewbox="0 0 100 100">
-              <circle cx="50" cy="50" r="45"></circle>
-              <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.6"></circle>
-            </svg>
-            <span class="tl-name">Android Studio</span>
-            <span class="tl-exp">60%</span>
-          </li>
-        </ul>
-      </div>
-      
-
-    </div>
-    <div class="detail-section interests">
-      <div class="detail-title">
-        <div class="title-icon">
-          <i class="fas fa-heart"></i>
-        </div>
-        <span>Interests</span>
-      </div>
-      <div class="detail-content">
-        <div class="outer-frame">
-          <ul class="favor-list">
-            <li>
-              
-              <span>Tennis</span>
-            </li>
-            
-            <li>
-              
-              <span>Music</span>
-            </li>
-            <li>
-              
-              <span>Pscyhology</span>
-            </li>
-            <li>
-             
-              <span>Cycling</span>
-            </li>
-          </ul>
+      <div class="c-media">
+        <div class="c-media__content">
+          <h2 class="l-header__title">Burak Karabacak</h2>
+          <div class="l-header__text">Collaborative and easy learner Computer Engineering Student. Eager to improvise in new skills and master applications. Passionate with team work and adaptable with team members. Has the fundemantal knowledge about Electronics, Data Structures and Object Oriented Programming .</div>
+          <div class="l-header__text"><strong>Computer Engineering Student&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Istanbul,TR</strong></div>
+          <div class="c-social"><a class="c-social__link" href="https://www.linkedin.com/in/burak-karabacak-006949229/">LinkedIn</a><a class="c-social__link" href="https://github.com/EclZn">GitHub</a></div>
         </div>
       </div>
     </div>
   </div>
-  
-</div>
+</header>
+<main class="l-wrapper">
+  <div class="grid__col grid__col--1-of-3">
+    <h4 class="u-text--primary">Contact Me</h4>
+    <ul class="c-list">
+      <li class="c-list__item"><a class="c-list__link" href="#"><i ></i>burakkarabacak2002@gmail.com</a></li>
+      <li class="c-list__item"><a class="c-list__link" href="www.burakkarabacak.com"><i class="c-list__icon" data-feather="link"> </i>www.burakkarabacak.com</a></li>
+      <li class="c-list__item"><a class="c-list__link" href="#"><i class="c-list__icon" data-feather="phone"> </i>+90 533 440 08 78 </a></li>
+    </ul>
+    <h4 class="u-text--primary">Skill Set</h4>
+    <ul class="c-list">
+      <li class="c-list__item">HTML&CSS</li>
+      <li class="c-list__item">Javascript</li>
+      <li class="c-list__item">C++</li>
+      <li class="c-list__item">C#</li>
 
+    </ul>
+    <h5 class="u-text--secondary">Platforms</h5>
+    <li class="c-list__item">Arduino IDE</li>
+    <li class="c-list__item">React Native</li>
+    <li class="c-list__item">Blender</li>
 
+    <ul class="c-list">
+     
+    </ul>
+    <h5 class="u-text--secondary">Languages</h5>
+    <ul class="c-list">
+      <li class="c-list__item">English ••••</li>
+      <li class="c-list__item">Turkish •••••</li>
+      <li class="c-list__item">Russian ••</li>
+    </ul>
+    <h4 class="u-text--primary">Education</h4>
+    <ul class="c-list">
+      <li class="c-list__item"><strong>Uskudar University</strong><br/><span>Computer Engineering</span><br/><span>2020-2026</span><br/><small class="u-text--secondary"></small></li>
+    </ul>
+  </div>
+  <div class="grid__col grid__col--2-of-3">
+    <h4 class="u-text--primary">Projects</h4>
+    <ul class="c-list">
+      <li class="c-list__item"><strong>Task Assignment App</strong>&nbsp;<br/><span class="u-text--secondary">React Native-Typescript</span>
+        <p>Developed a cross-platform mobile application using React Native platform. Project uses OneSignal to deliver and receive push notifications among other users and Firebase in order to maintain real-time database management and user authentication. Implemented secure login functionality and synchronized data transfer across all users simultaneously. </p>
+      </li>
+      <li class="c-list__item"><strong>Company 2</strong>&nbsp;- UX Designer & Researcher<br/><span class="u-text--secondary">San Mateo | 2017 - 2018</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus maximus libero, eget blandit ipsum. Aenean accumsan dui dolor, ut vulputate justo ornare sit amet. Mauris consectetur gravida eros, in pharetra dui. Aenean hendrerit eros quis lectus bibendum, non ultrices quam ultricies.</p>
+      </li>
+      
+      
+    </ul>
+    <h4 class="u-text--primary">Certificates</h4>
+    <ul class="c-list">
+      <li class="c-list__item"><strong>Introduction to C++</strong><br/><span class="u-text--secondary">BTK AKADEMI</span>
+        <p>Understanding the Working Mechanism and Object Oriented topics </p>
+      </li>
+      <li class="c-list__item"><strong>JavaScript Algorithms and Data Structures</strong><br/>
+        <span class="u-text--secondary">freeCodeCamp</span>
+        <p>Understanding the Working Mechanism and Object Oriented topics </p>
+      </li>
+      <li class="c-list__item"><strong>C1 English Certificate</strong><br/><span class="u-text--secondary">2021- Uskudar University</span>
+      </li>
+    </ul>
+  </div>
+</main>
+<!-- partial -->
+  <script src='https://unpkg.com/feather-icons'></script><script  src="./script.js"></script>
 
 </body>
 </html>
